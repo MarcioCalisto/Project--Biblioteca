@@ -23,4 +23,14 @@ public class Cliente extends Pessoa {
     public void exibirInfo() {
         System.out.println("Cliente: " + getNome() + ", cpf: " + getCpf() + ", Livros emprestados: " + numLivroEmprestados);
     }
+
+    // Métodos para gerenciar o número de livros emprestados
+
+    public void emprestarLivro() {
+        numLivroEmprestados ++;
+    }
+
+    public void devolverLivro() {
+        numLivroEmprestados --;
+    }
 }
