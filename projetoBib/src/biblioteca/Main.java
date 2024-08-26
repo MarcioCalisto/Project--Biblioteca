@@ -4,7 +4,7 @@ import biblioteca.livros.Livro; // importa a classe Livro
 import biblioteca.pessoas.Cliente; // importa a classe Cliente
 import biblioteca.pessoas.Funcionario; // Importa a classe Funcionario
 
-/*
+/**
  * A classe Main é o ponto de entrada do programa.
  * Cria uma instância da biblioteca, adiciona livros e exibe operações.
  */
@@ -40,6 +40,6 @@ public class Main {
 
         // Exibir informações de um cliente e um funcionário
 
-        
+
         }
 }

@@ -8,7 +8,7 @@ public abstract class Pessoa {
     private String nome;
     private String cpf;
 
-    /*
+    /**
      * Construtor para inicializar o nome e CPF da pessoa.
      * 
      * @param nome O nome da pessoa.

@@ -1,13 +1,13 @@
 package biblioteca.pessoas;
 
-/*
+/**
  * A classe Cliente herda de Pessoa e representa um cliente na biblioteca.
  * Adiciona o atributo para o número de livros emprestados.
  */
 public class Cliente extends Pessoa {
     private int numLivroEmprestados; // Número de livros emprestados pelo cliente.
 
-    /*
+    /**
      * Construtor para inicializar o nome, CPF e definir o número de livros emprestados como zero.
      * 
      * @param nome O nome do cliente.
