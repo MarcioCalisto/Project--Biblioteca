@@ -28,7 +28,7 @@ public class Biblioteca {
         System.out.println("Livro adicionado: " + livro.getTitulo());
     }
 
-     /**
+    /**
      * Método para listar todos os livros da biblioteca.
      */
     public void listarLivros() {
@@ -53,7 +53,7 @@ public class Biblioteca {
         return null; // Retorna null se o livro não for encontrado
     } 
 
-     /**
+    /**
      * Método para emprestar um livro.
      * @param titulo O título do livro a ser emprestado.
      */
