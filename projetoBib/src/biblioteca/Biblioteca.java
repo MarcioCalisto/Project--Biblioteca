@@ -1,12 +1,13 @@
 package biblioteca;
 
 import biblioteca.livros.Livro; // Importa a classe Livro do pacote livros
-import java.util.ArrayList;
+import java.util.ArrayList; // Importa a classe ArrayList para armazenar os livros
 import java.util.List; // Importa a classe ArrayList para manipulação de listas
 
 
 /**
  * Classe Biblioteca que gerencia uma coleção de livros.
+ * Inclui métodos para adicionar, listar, emprestar e devolver os livros.
  */
 public class Biblioteca {
     private List<Livro> livros; // Lista que armazena os livros da biblioteca
@@ -16,7 +17,7 @@ public class Biblioteca {
      * Inicializa a lista de livros como um novo ArrayList.
      */
     public Biblioteca() {
-        this.livros = new ArrayList<>();
+        this.livros = new ArrayList<>(); // Inicia a lista de livros como um ArrayList
     }
 
     /**
