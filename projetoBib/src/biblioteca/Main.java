@@ -21,24 +21,27 @@ public class Main {
         biblioteca.adicionarLivro(livro2);
 
         // Listar todos os livros
+        biblioteca.listarLivros();
 
-
-        // Emprestar um livro
-
+        // Emprestar um livro 
+        biblioteca.emprestarLivro("1984");
 
         // Tentar emprestar o mesmo livro novamente
-
+        biblioteca.emprestarLivro("1984");
 
         // Devolver o livro
-
+        biblioteca.devolverLivro("1984");
 
         // Listar todos os livros após as operações
-
+        biblioteca.listarLivros();
 
         // Criar um cliente e um funcionário
-
+        Cliente cliente = new Cliente("João Silva", "123.456.789.01");
+        Funcionario funcionario = new Funcionario("Daniel Maia", "123.456.789.01");
 
         // Exibir informações de um cliente e um funcionário
+        cliente.exibirInfo();
+        funcionario.exibirInfo();
 
 
         }
