@@ -1,8 +1,8 @@
 package biblioteca;
 
-import biblioteca.livros.Livro; // importa a classe Livro
-import biblioteca.pessoas.Cliente; // importa a classe Cliente
-import biblioteca.pessoas.Funcionario; // Importa a classe Funcionario
+import biblioteca.livros.Livro;
+import biblioteca.pessoas.Cliente;
+import biblioteca.pessoas.Funcionario;
 
 /**
  * A classe Main é o ponto de entrada do programa.
